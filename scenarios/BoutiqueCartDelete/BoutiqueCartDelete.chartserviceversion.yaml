@@ -1,0 +1,32 @@
+apiVersion: litmuschaos.io/v1alpha1
+kind: ChartServiceVersion
+metadata:
+  annotations:
+    categories: ""
+    chartDescription: ""
+    createdAt: ""
+    repository: ""
+    support: ""
+    vendor: ""
+  name: BoutiqueCartDelete
+  version: ""
+packageInfo:
+  experiments: null
+  packageName: ""
+spec:
+  categoryDescription: ""
+  chaosExpCRDLink: ""
+  chaosType: ""
+  displayName: BoutiqueCartDelete chaos
+  experiments:
+  - description: This chaos scenario consists of pod-network-latency-3kv experiment
+    name: pod-network-latency-3kv
+  keywords: []
+  links: null
+  maintainers: null
+  maturity: ""
+  minKubeVersion: ""
+  platforms: null
+  provider:
+    name: ""
+  scenarios: null
